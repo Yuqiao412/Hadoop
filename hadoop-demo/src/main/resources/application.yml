@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+hadoop:
+  ip: 192.168.1.11
+  user: hadoop
+  hdfs: hdfs://${hadoop.ip}:9000
+  jobtracker: ${hadoop.ip}:9001
+  resourcemanager: ${hadoop.ip}:8032
+  scheduler: ${hadoop.ip}:8030
